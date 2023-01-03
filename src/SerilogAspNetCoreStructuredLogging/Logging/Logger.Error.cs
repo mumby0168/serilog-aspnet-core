@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace Whds.Packing.Mainframe.Integration.Logging;
+﻿namespace SerilogAspNetCoreStructuredLogging.Logging;
 
 public static partial class Log
 {

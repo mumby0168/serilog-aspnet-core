@@ -2,8 +2,8 @@ using FluentValidation;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Serilog;
+using SerilogAspNetCoreStructuredLogging.Application;
 using SerilogAspNetCoreStructuredLogging.Endpoints;
-using SerilogAspNetCoreStructuredLogging.Services;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo

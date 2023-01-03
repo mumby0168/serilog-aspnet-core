@@ -2,7 +2,7 @@ using System.Security.Cryptography;
 using SerilogAspNetCoreStructuredLogging.Domain;
 using SerilogAspNetCoreStructuredLogging.Exceptions;
 
-namespace SerilogAspNetCoreStructuredLogging.Services;
+namespace SerilogAspNetCoreStructuredLogging.Application;
 
 public class OrderServiceDisruptorDecorator : IOrdersService
 {

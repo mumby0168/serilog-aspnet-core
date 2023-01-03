@@ -1,7 +1,7 @@
+using SerilogAspNetCoreStructuredLogging.Application;
 using SerilogAspNetCoreStructuredLogging.Contract.Dtos;
 using SerilogAspNetCoreStructuredLogging.Exceptions;
-using SerilogAspNetCoreStructuredLogging.Services;
-using Whds.Packing.Mainframe.Integration.Logging;
+using SerilogAspNetCoreStructuredLogging.Logging;
 
 namespace SerilogAspNetCoreStructuredLogging.Endpoints;
 

@@ -1,6 +1,6 @@
 using SerilogAspNetCoreStructuredLogging.Domain;
 
-namespace SerilogAspNetCoreStructuredLogging.Services;
+namespace SerilogAspNetCoreStructuredLogging.Application;
 
 public interface IOrdersService
 {

@@ -1,8 +1,8 @@
 using FluentValidation;
+using SerilogAspNetCoreStructuredLogging.Application;
 using SerilogAspNetCoreStructuredLogging.Contract.Requests;
 using SerilogAspNetCoreStructuredLogging.Exceptions;
-using SerilogAspNetCoreStructuredLogging.Services;
-using Whds.Packing.Mainframe.Integration.Logging;
+using SerilogAspNetCoreStructuredLogging.Logging;
 
 namespace SerilogAspNetCoreStructuredLogging.Endpoints;
 
