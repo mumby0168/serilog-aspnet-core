@@ -29,6 +29,10 @@ try
                 serviceProvider.GetRequiredService<TelemetryConfiguration>(),
                 TelemetryConverter.Traces);
 
+        loggerConfiguration
+            .WriteTo
+            .Console();
+
         // read serilog config block from IConfiguration
         // reads things such as log levels and filter rules
         loggerConfiguration
@@ -38,7 +42,7 @@ try
 
     builder.Services
         .AddEndpointsApiExplorer()
-        .AddSwaggerGen(options => options.CustomSchemaIds(type => type.FullName));
+        .AddSwaggerGen(options => options.CustomSchemaIds(s => s.FullName?.Replace("+", ".")));
 
     builder.Services
         .AddHealthChecks()
